@@ -44,10 +44,11 @@ for row in rows[1:]:
             product_soup = BeautifulSoup(product_response.content, 'html.parser')
             
             cve_matches = re.findall(r'CVE-\d{4}-\d{2,7}', product_soup.text)
+            unique_cves = set(cve_matches)  # Используем множество для уникальных CVE
             cve_dict = {}
             release_date = cols[2]
             if '2023' in release_date:
-                for cve_id in set(cve_matches):
+                for cve_id in unique_cves:
                     cve_dict[cve_id] = enrich_cve(cve_id)
                 
                 product_data = {
