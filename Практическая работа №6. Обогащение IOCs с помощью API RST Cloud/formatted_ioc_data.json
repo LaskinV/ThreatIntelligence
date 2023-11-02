@@ -1,0 +1,142 @@
+[
+    {
+        "ioc": "5.188.86.18",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "ipv4"
+    },
+    {
+        "ioc": "5.188.206.78",
+        "tag": "malware",
+        "related_threat": "cobalt_strike",
+        "report_source": "https://github.com/stamparm/maltrail",
+        "ioc_type": "ipv4"
+    },
+    {
+        "ioc": "45.182.189.71",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://github.com/stamparm/maltrail",
+        "ioc_type": "ipv4"
+    },
+    {
+        "ioc": "81.19.135.30",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "ipv4"
+    },
+    {
+        "ioc": "139.60.160.166",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "ipv4"
+    },
+    {
+        "ioc": "6164e9d297d29aa8682971259da06848",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "md5"
+    },
+    {
+        "ioc": "96b95edc1a917912a3181d5105fd5bfad1344de0",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "sha1"
+    },
+    {
+        "ioc": "717beedcd2431785a0f59d194e47970e9544fbf398d462a305f6ad9a1b1100cb",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "sha256"
+    },
+    {
+        "ioc": "12011c44955fd6631113f68a99447515",
+        "tag": "malware",
+        "related_threat": "truebot, clop",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "md5"
+    },
+    {
+        "ioc": "4f4f8cf0f9b47d0ad95d159201fe7e72fbc8448d",
+        "tag": "malware",
+        "related_threat": "truebot, clop",
+        "report_source": "https://www.rewterz.com/rewterz-news/rewterz-threat-alert-authorities-raise-concerns-over-escalating-truebot-malware-attacks-active-iocs",
+        "ioc_type": "sha1"
+    },
+    {
+        "ioc": "c92c158d7c37fea795114fa6491fe5f145ad2f8c08776b18ae79db811e8e36a3",
+        "tag": "malware",
+        "related_threat": "playcrypt",
+        "report_source": "https://1275.ru/ioc/2376/play-ransomware-iocs-part-3/?from=rss",
+        "ioc_type": "sha256"
+    },
+    {
+        "ioc": "2dc57a3836e4393d4d16c4eb04bf9c7e",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "otx.alienvault.com",
+        "ioc_type": "md5"
+    },
+    {
+        "ioc": "c6a5b345cef4eb795866ba81dcac9bd933fdd86d",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "otx.alienvault.com",
+        "ioc_type": "sha1"
+    },
+    {
+        "ioc": "121a1f64fff22c4bfcef3f11a23956ed403cdeb9bdb803f9c42763087bd6d94e",
+        "tag": "malware",
+        "related_threat": "truebot, clop",
+        "report_source": "https://1275.ru/ioc/2286/truebot-botnet-iocs-part-2-2/?from=rss",
+        "ioc_type": "sha256"
+    },
+    {
+        "ioc": "fbe295e5a1acfbd0a6271898f885fe6a",
+        "tag": "",
+        "related_threat": "",
+        "report_source": "",
+        "ioc_type": ""
+    },
+    {
+        "ioc": "d6d205922e61635472efb13c2bb92c9ac6cb96da",
+        "tag": "",
+        "related_threat": "",
+        "report_source": "",
+        "ioc_type": ""
+    },
+    {
+        "ioc": "e6611380fbbe475a97dc9cf0a0e9fd2b",
+        "tag": "",
+        "related_threat": "",
+        "report_source": "",
+        "ioc_type": ""
+    },
+    {
+        "ioc": "https://hrcbishtek.com/",
+        "tag": "",
+        "related_threat": "",
+        "report_source": "",
+        "ioc_type": ""
+    },
+    {
+        "ioc": "https://imsagentes.pe/dgrjfj",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.hybrid-analysis.com/sample/bb44516dc72dda3ccbe0dd313e984e2de60f4822179ffc685fcfaaa663a96758/64a94508c27aff29ca03fcda,https://www.hybrid-analysis.com/sample/63689a9585385a922530a0b05f0bcc4d9831d6ec9043d904289f5319dfde6d92/64a94508ba264e22210a6a0b",
+        "ioc_type": "url"
+    },
+    {
+        "ioc": "https://ecorfan.org/base/sj/document_may_24_16654.exe",
+        "tag": "malware",
+        "related_threat": "truebot",
+        "report_source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-187a",
+        "ioc_type": "url"
+    }
+]
