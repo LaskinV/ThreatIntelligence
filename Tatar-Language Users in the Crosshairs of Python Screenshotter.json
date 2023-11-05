@@ -1,0 +1,199 @@
+{
+    "report_title": "Tatar-Language Users in the Crosshairs of Python Screenshotter",
+    "report_number": "September 14, 2023",
+    "sensitivity": null,
+    "traffic_light_protocol": null,
+    "criticality": "high",
+    "executive_summary": "Cyble Research and Intelligence Labs (CRIL) have discovered Python malware that captures screenshots and sends them to remote attackers via FTP. Similar campaigns have been observed in the recent past, targeting users in the United States and Germany, associated with the threat actor known as \"TA866\". This particular campaign is targeted at Tatar-speaking users residing in a specific region of Russia.\nThe campaign was designed to target victims during the Tartar Republic Day, which was indicated to be towards the end of August. It involves the execution of a PowerShell script responsible for taking screenshots and uploading them to a remote FTP server. It is suspected that the distribution of the campaign could potentially be through phishing emails containing a RAR file, which in turn holds two additional files: a video file and a Python-based executable file with a double extension that disguises itself as an image file.\nProofpoint had previously reported a similar campaign wherein TA866, a financially motivated threat actor, was involved.",
+    "key_points": "Python malware capturing screenshots and transmitting them via FTP was identified by Cyble Research and Intelligence Labs (CRIL).\nSimilar campaigns targeting users in the USA and Germany had been observed in the past with the involvement of the \"TA866\" group.\nThis campaign specifically targets Tatar-speaking users, particularly in a region of Russia.\nThe attack was planned to coincide with the Tartar Republic Day celebrations at the end of August.\nThe campaign involves a PowerShell script for taking and uploading screenshots to a remote FTP server.\nThe suspected method of distribution is through phishing emails containing a RAR file, which includes a video and a disguised Python executable file.",
+    "assessment": null,
+    "intelligence_gaps": null,
+    "mitre_attack_table": [
+        {
+            "attribution": null,
+            "tactic": "TA0001",
+            "technique": "T1566",
+            "sub_technique": "T1566.001",
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1566.001/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0002",
+            "technique": "T1204",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1204/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0009",
+            "technique": "T1113",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1113/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0010",
+            "technique": "T1011",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1011/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0002",
+            "technique": "T1059",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1059/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0005",
+            "technique": "T1202",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1202/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0009",
+            "technique": "T1119",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1119/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0003",
+            "technique": "T1053",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1053/"
+        },
+        {
+            "attribution": null,
+            "tactic": "TA0010",
+            "technique": "T1029",
+            "sub_technique": null,
+            "procedure": null,
+            "control": null,
+            "defend": "https://d3fend.mitre.org/offensive-technique/attack/T1029/"
+        }
+    ],
+    "timeline": [],
+    "iocs": {
+        "malware": [
+            {
+                "attribution": null,
+                "ioc_malware_name": null,
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "675fcbfcd07026269302eb2efcadaf98",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            },
+            {
+                "attribution": null,
+                "ioc_malware_name": null,
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "6e11eba3f5fcf7f0324c3f5694f45f04",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            },
+            {
+                "attribution": null,
+                "ioc_malware_name": null,
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "675fcbfcd07026269302eb2efcadaf98",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            },
+            {
+                "attribution": null,
+                "ioc_malware_name": null,
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "6e11eba3f5fcf7f0324c3f5694f45f04",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            },
+            {
+                "attribution": null,
+                "ioc_malware_name": null,
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "70889a35b3c0dbc67327594628c4d370",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            }
+        ],
+        "network": [
+            {
+                "attribution": null,
+                "network_intrusion_phase": null,
+                "artifact": "fxp://ftpupload3.dfiles[.]eu/",
+                "details": null,
+                "first_reported": null,
+                "last_reported": null
+            },
+            {
+                "attribution": null,
+                "network_intrusion_phase": null,
+                "artifact": "hxxps://www.dropbox[.]com/scl/fi/hq90fosq6l819auwti5u4/sc3.zip?rlkey=hxnt4ujg2r61cvdim77cwqnlc&dl=1",
+                "details": null,
+                "first_reported": null,
+                "last_reported": null
+            }
+        ],
+        "system_artifacts": [],
+        "cves": []
+    },
+    "signatures": [],
+    "intelligence_requirements": [],
+    "data_sources": {
+        "report_citations": [
+            {
+                "description": "Proofpoint",
+                "hyperlink": "https://www.proofpoint.com/us/blog/threat-insight/screentime-sometimes-it-feels-like-somebodys-watching-me"
+            }
+        ],
+        "internal_telemetry": []
+    },
+    "metadata": {
+        "threat_actors": [],
+        "victim_location": [],
+        "sectors": [],
+        "infrastructure_used": [],
+        "threat_actor_motivation": []
+    },
+    "report_date": "2023-11-05T11:46:10.408Z",
+    "__document": {
+        "authoring_tool_version": "1.0.0",
+        "template_name": "Campaign Report",
+        "template_version": "0.1.0",
+        "template_identifier": "a2d30a3c-49b5-42e5-a4cb-649009fa4c9d"
+    }
+}
